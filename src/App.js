@@ -1,4 +1,7 @@
 import React from "react";
+import Todo from "./components/TodoComponents/Todo";
+import data from "./index.js";
+import TodList from "./components/TodoComponents/TodoList";
 import "./components/TodoComponents/Todo.css";
 
 class App extends React.Component {
