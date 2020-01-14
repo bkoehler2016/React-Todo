@@ -1,5 +1,5 @@
 import React from "react";
-import TodoList from "./TodoList";
+
 import { Button, Form, Input } from "reactstrap";
 
 class TodoForm extends React.Component {

@@ -4,6 +4,9 @@ import TodoForm from "./components/TodoComponents/TodoForm";
 import TodoList from "./components/TodoComponents/TodoList";
 import TodoError from "./components/TodoComponents/TodoError";
 import "./components/TodoComponents/Todo.css";
+
+let error = 0;
+
 class App extends React.Component {
   // you will need a place to store your state in this component.
   // design `App` to be the parent component of your application.
@@ -12,7 +15,8 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      taskList: data
+      taskList: data,
+      error: error
     };
   }
 
